@@ -1,0 +1,9 @@
+unzip sber_tracker_app.zip
+cd sber_tracker_app
+
+git init
+git add .
+git commit -m "Sber Tracker"
+git branch -M main
+git remote add origin https://github.com/aperevalov702-dot/sber-tracker.git
+git push -u origin main
